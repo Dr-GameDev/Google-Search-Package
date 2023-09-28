@@ -13,7 +13,7 @@ To use, simply run `go-search search <query>`. For example, to search for "cats"
 
 The results will be printed to the terminal in JSON format.
 
-At this point in development, the program takes only one argument as a query. If your search is multi-worded you might alternate to using `-` in between each word. For example, to search for "cats and mice", you would run `go-search search cats-and-mice`.
+If your search is multi-worded you might alternate to wrapping the text in double quotes. For example, to search for "cats and mice", you would run `go-search search "cats and mice"`.
 
 
 ## Code Explanation
