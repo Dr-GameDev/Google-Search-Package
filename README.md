@@ -18,7 +18,7 @@ If your search is multi-worded you might alternate to wrapping the text in doubl
 
 ## Code Explanation
 
-The code is relatively simple. The main function first checks to make sure that the user has provided a search query. If they have, it calls the `google_searcher()` function, which performs the search and returns the results. The results are then printed to the terminal in JSON format.
+The code is relatively simple. The main function first checks to make sure that the user has provided a search query. If they have, it calls the `google_searcher()` function, which performs the search and returns the results. The results are then printed to the terminal in text format.
 
 The `google_searcher()` function first makes a request to the Google search engine, using the user's query as the search term. If the request is successful, the function parses the HTML response and extracts the search results. The search results are then returned to the main function.
 
