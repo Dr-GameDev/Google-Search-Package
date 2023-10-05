@@ -9,11 +9,11 @@ To install, simply run `pip install search-terminal==0.0.1`.
 
 ## Usage
 
-To use, simply run `go-search search <query>`. For example, to search for "cats", you would run `go-search search cats`.
+To use, simply run `search <query>`. For example, to search for "cats", you would run `search cats`.
 
 The results will be printed to the terminal in JSON format.
 
-If your search is multi-worded you might alternate to wrapping the text in double quotes. For example, to search for "cats and mice", you would run `go-search search "cats and mice"`.
+If your search is multi-worded you might alternate to wrapping the text in double quotes. For example, to search for "cats and mice", you would run `search "cats and mice"`.
 
 
 ## Code Explanation
@@ -26,4 +26,3 @@ The `google_searcher()` function first makes a request to the Google search engi
 
 This is a simple but useful tool that can be used to search Google from the command line. It is easy to use and install, and the code is well-commented and easy to understand.
 
-If you are interested in helping develop this further you can contact me at "gmail: raymondbabalo5@gmail.com" or Instagram @ https://www.instagram.com/babalomajiyezi/ .
