@@ -1,13 +1,15 @@
 from setuptools import setup
 
+with open("../README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
 
 setup(
     name='search-terminal',
-    version='0.0.1',
+    version='0.0.2',
     author="Babalo Majiyezi",
     author_email="raymondbabalo5@gmail.com",
     description="This is a program that allows you to search the web from the comfort of your terminal.",
-    long_description="file: README.md",
+    long_description=long_description,
     long_description_content_type="text/markdown",
     packages=["search_package"], 
     url="https://github.com/Dr-GameDev/Google-Search-Package",
@@ -18,12 +20,15 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'beautifulsoup4',
+        'argparse',
         'requests',
+        'html2text',
     ],
     entry_points={
         'console_scripts': [
-            'go-search = search_package.search:main', 
+            'search = search_package.search:main', 
         ],
     },
+    keywords=["search", "web search", "terminal search"],
+    license="MIT",
 )

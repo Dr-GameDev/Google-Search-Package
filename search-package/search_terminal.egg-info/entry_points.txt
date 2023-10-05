@@ -1,2 +1,2 @@
 [console_scripts]
-go-search = search_package.search:main
+search = search_package.search:main
