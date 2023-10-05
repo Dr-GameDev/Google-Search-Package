@@ -5,13 +5,13 @@ This is a simple command-line tool that allows you to search Google from your te
 
 ## Installation
 
-To install, simply run `pip install search-terminal==0.0.1`.
+To install, simply run `pip install search-terminal==0.0.2`.
 
 ## Usage
 
 To use, simply run `search <query>`. For example, to search for "cats", you would run `search cats`.
 
-The results will be printed to the terminal in JSON format.
+The results will be printed to the terminal in text format.
 
 If your search is multi-worded you might alternate to wrapping the text in double quotes. For example, to search for "cats and mice", you would run `search "cats and mice"`.
 
